@@ -1,0 +1,32 @@
+{
+    "name": "alialbair/belajar-php-unit-test",
+    "description": "Belajar PHP Unit Test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Alialbair\\BelajarPhpUnitTest\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alialbair\\BelajarPhpUnitTest\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --configuration phpunit.xml",
+        "test:product": "phpunit --configuration phpunit.xml --testsuite product",
+        "test:counter": "phpunit --configuration phpunit.xml --testsuite counter"
+    },
+    "authors": [
+        {
+            "name": "muhalialbair98",
+            "email": "muhalialbair98@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.9"
+    }
+}

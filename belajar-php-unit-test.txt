@@ -1,0 +1,34 @@
+-PHPUnit (Framework Unit Test)
+https://phpunit.de/
+Install PHPUnit melalui composer
+https://packagist.org/packages/phpunit/phpunit
+-Assertions(Pengecekan menggunakan class PHPunit)
+https://phpunit.readthedocs.io/en/9.5/assertions.html
+-Annotation
+https://phpunit.readthedocs.io/en/9.5/annotations.html
+-Fixtures
+https://phpunit.readthedocs.io/en/9.5/fixtures.html
+-Configuration Stub
+	invocationStubber
+https://github.com/sebastianbergmann/phpunit/blob/master/src/Framework/MockObject/Builder/InvocationStubber.php
+-MockObject(ImprovmentStub)
+https://github.com/sebastianbergmann/phpunit/tree/master/src/Framework/MockObject
+	verifikasi parameter di mock:
+https://github.com/sebastianbergmann/phpunit/tree/master/src/Framework/Constraint
+-Configuration PHPUnit(tidak mandatory)
+https://phpunit.readthedocs.io/en/9.5/configuration.html	
+	run ?/?/phpunit --configuration phpunit.xml
+	or
+	add "scripts":{
+		"test" : "phpunit --configuration phpunit.xml"
+	}
+
+tambahan:
+-The Command-Line Test Runner
+https://phpunit.readthedocs.io/en/9.5/textui.html
+-xml configuration PHP Unit
+https://phpunit.readthedocs.io/en/9.5/configuration.html
+-Code Coverage Analysis
+https://phpunit.readthedocs.io/en/9.5/code-coverage-analysis.html
+-Annotations
+https://phpunit.readthedocs.io/en/9.5/annotations.html
